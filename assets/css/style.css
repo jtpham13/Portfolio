@@ -1,76 +1,44 @@
 *{
-    margin: 0px;
-    padding: 0px
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
 
 body{
-    background-color:gray;
+    background-color:white;
 }
-header {
-    padding: 10px;
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: gray;
+    padding:10px
+}
+.header-content{
     display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    background-color: lightcoral;
-    border: 5px solid;
-}
- 
-header nav{
-    display: flex;
-    align-items: center;
-    justify-content:flex-end;
+    align-items:flex-end;
+
 }
 
-
-header img{
-    display: inline-block;
-    height:200px;
-    width:145px;
-    border-radius: 50%;
+.header-content img{
+    width: 100px;
+    padding: 5px;
+    margin-right: 5px;
 }
 
-
-header nav a {
-    margin-left: 6px;
-    margin-right: 6px;
-    text-decoration: none;
-    color:black;
-    
-}
-
-section {
-    padding: 20px;
+.header-nav ul{
     display: flex;
 }
 
-section h2 {
-    width: 20%;
+.header-nav li {
+   list-style: none;
+   margin: 10px
 }
 
-.box{
-    border: 1px solid black;
-    background-color: lightcoral;
-    min-width: 30px;
-    min-height: 30px;
-}
-
-#projects{
+.section-box {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    margin: 20px;
 }
-
-.box-project-1{
-    width: 100%;
-    min-height: 200px;
-}
-
-.box-project-2,
-.box-project-3{
-    width:49%;
-    min-height: 50px;
-}
-
     
