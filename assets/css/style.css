@@ -39,6 +39,29 @@ body{
 
 .section-box {
     display: flex;
-    margin: 20px;
+    margin: 50px;
+    padding: 10px;
+}
+
+.section-title{
+    background-color: white;
+    border-right: 2px solid darkblue;
+    padding-right: 10px;
+}
+
+.section-content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+   
 }
     
+.image-1{
+    margin-bottom: 50px;
+}
+
+
+.image-1 img{
+    width: 100%;
+}
+
