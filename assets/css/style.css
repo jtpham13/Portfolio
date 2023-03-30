@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+header nav a {
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+    color:black;
+}
+
+section {
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+section h2 {
+    width: 20%;
+}
