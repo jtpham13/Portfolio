@@ -8,12 +8,13 @@
 body{
     background-color:white;
 }
-
+/* header styling*/
 .header{
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: gray;
+    background-color: darkblue;
+    color: white;
     padding:10px
 }
 .header-content{
@@ -34,9 +35,16 @@ body{
 
 .header-nav li {
    list-style: none;
-   margin: 10px
+   margin: 10px;
+   color: white;
 }
 
+.header-nav li a{
+    color:white;
+    text-decoration: none;
+}
+
+/* section styling */
 .section-box {
     display: flex;
     margin: 50px;
@@ -53,9 +61,10 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 10px;
+    
    
 }
-    
+    /*image styling  */
 .image-1{
     margin-bottom: 50px;
 }
@@ -63,5 +72,27 @@ body{
 
 .image-1 img{
     width: 100%;
+   
 }
 
+.image-23 img{
+    width: 560px;
+    height: 560px;
+   
+
+}
+
+.image-23{
+    display: flex;
+    justify-content:space-around
+}
+
+/* anything above this is for mobile */
+/* responsive styling */
+@media screen and (min-width: 560px) {
+    .header{
+        background-color: blueviolet;
+    }
+
+  
+}
