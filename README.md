@@ -8,7 +8,7 @@ I used html and css to create a responsive Portfolio page. It is currently still
 ### Screenshot 
 <img src="https://github.com/jtpham13/Portfolio/blob/main/screenshot/ontherocksupdated.png"/>
 
-<img src="https://github.com/jtpham13/Portfolio/blob/main/screenshot/ontherocksupdated2.png"/>
+<img src="https://github.com/jtpham13/Portfolio/blob/main/screenshot/updatedprokect2.png"/>
 
 [Click here for repo](https://github.com/jtpham13/Portfolio)
 [Click here for live site](https://jtpham13.github.io/Portfolio/)
